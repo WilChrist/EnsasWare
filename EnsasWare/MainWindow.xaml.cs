@@ -23,6 +23,14 @@ namespace EnsasWare
         public MainWindow()
         {
             InitializeComponent();
+            GridMain.Children.Clear();
+            GridMain.Children.Add(new LoginControl());
+
+            etudiantBtn.Visibility = System.Windows.Visibility.Hidden;
+            filiereBtn.Visibility = System.Windows.Visibility.Hidden;
+            statistiqueBtn.Visibility = System.Windows.Visibility.Hidden;
+            aproposBtn.Visibility = System.Windows.Visibility.Hidden;
+            logout.Visibility = System.Windows.Visibility.Hidden;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -34,7 +42,9 @@ namespace EnsasWare
             switch(index)
             {
                 case 0:
+                    GridMain.Children.Clear();
                     GridMain.Background = Brushes.Aquamarine;
+                    GridMain.Children.Add(new LoginControl());
                     break;
                 case 1:
                     GridMain.Background = Brushes.Beige;
@@ -66,6 +76,20 @@ namespace EnsasWare
         {
             DragMove();
 
+        }
+        public MainWindow GetMainWindow()
+        {
+            return this;
+        }
+
+        private void logout_Click(object sender, RoutedEventArgs e)
+        {
+            accueilBtn.Visibility = System.Windows.Visibility.Visible;
+            etudiantBtn.Visibility = System.Windows.Visibility.Hidden;
+            filiereBtn.Visibility = System.Windows.Visibility.Hidden;
+            statistiqueBtn.Visibility = System.Windows.Visibility.Hidden;
+            aproposBtn.Visibility = System.Windows.Visibility.Hidden;
+            logout.Visibility = System.Windows.Visibility.Hidden;
         }
     }
 }
