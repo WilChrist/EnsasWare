@@ -5,16 +5,23 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:EnsasWare"
              xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation" x:Class="EnsasWare.GestionFiliere"
-             mc:Ignorable="d" Width="719" Height="477" Background="#F6FFFFFF">
-    <Grid Background="White">
-        <telerik:RadCarousel x:Name="radfil" HorizontalAlignment="Left" Margin="24,10,0,0" VerticalAlignment="Top" Height="244" Width="648" Loaded="radfil_Loaded"/>
-        <Grid x:Name="controlgrid" HorizontalAlignment="Left" Height="188" Margin="126,279,0,0" VerticalAlignment="Top" Width="484" Background="#FFE3EEF7">
+             mc:Ignorable="d" Width="1080" Height="460" Background="#F6FFFFFF">
+    <Grid Width="1080">
+        <Grid.Background>
+            <ImageBrush ImageSource="img_fil.png"/>
+        </Grid.Background>
+        <telerik:RadCarousel x:Name="radfil" HorizontalAlignment="Left" Margin="28,10,0,0" VerticalAlignment="Top" Height="244" Width="990" Loaded="radfil_Loaded" Background="#19FFFFFF"/>
+        <Grid x:Name="controlgrid" HorizontalAlignment="Left" Height="188" Margin="262,272,0,0" VerticalAlignment="Top" Width="484" Background="#75E3EEF7">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="224*"/>
+                <ColumnDefinition Width="261*"/>
+            </Grid.ColumnDefinitions>
             <Label Content="ID Filière" HorizontalAlignment="Left" Margin="55,23,0,0" VerticalAlignment="Top" Width="92" Background="{x:Null}" BorderBrush="#FFDEBDBD" Foreground="Black"/>
-            <TextBox HorizontalAlignment="Left" Height="30" Margin="168,23,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="175" Background="{x:Null}"/>
-            <TextBox HorizontalAlignment="Left" Height="30" Margin="168,62,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="175" Background="{x:Null}"/>
+            <TextBox HorizontalAlignment="Left" Height="30" Margin="168,23,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="175" Background="{x:Null}" Grid.ColumnSpan="2"/>
+            <TextBox HorizontalAlignment="Left" Height="30" Margin="168,62,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="175" Background="{x:Null}" Grid.ColumnSpan="2"/>
             <Label Content="Nom Filière" HorizontalAlignment="Left" Margin="55,66,0,0" VerticalAlignment="Top" Width="92" Foreground="Black"/>
-            <Button x:Name="modifierFil" Content="Modifier" HorizontalAlignment="Left" Height="34" Margin="180,130,0,0" VerticalAlignment="Top" Width="110" Click="modifierFil_Click"/>
-            <Button x:Name="supprimerFil" Content="Supprimer" HorizontalAlignment="Left" Height="34" Margin="310,130,0,0" VerticalAlignment="Top" Width="105" Click="supprimerFil_Click"/>
+            <Button x:Name="modifierFil" Content="Modifier" HorizontalAlignment="Left" Height="34" Margin="180,130,0,0" VerticalAlignment="Top" Width="110" Click="modifierFil_Click" Grid.ColumnSpan="2"/>
+            <Button x:Name="supprimerFil" Content="Supprimer" HorizontalAlignment="Left" Height="34" Margin="86.5,130,0,0" VerticalAlignment="Top" Width="105" Click="supprimerFil_Click" Grid.Column="1"/>
             <Button x:Name="ajouterFil" Content="Ajouter" HorizontalAlignment="Left" Height="34" Margin="41,130,0,0" VerticalAlignment="Top" Width="115" Click="ajouterFil_Click"/>
         </Grid>
     </Grid>

@@ -65,7 +65,7 @@
     </Style>
     <!--  style pour le template des données  -->
 
-    <Style  TargetType="TextBox">
+  <!--  <Style  TargetType="TextBox">
         <Setter Property="Height" Value="30"/>
         <Setter Property="Width" Value="175"/>
         <Setter Property="BorderBrush">
@@ -85,5 +85,5 @@
                 <Setter Property="Width" Value="175"/>
             </Trigger>
         </Style.Triggers>
-    </Style>
+    </Style> -->
 </ResourceDictionary>

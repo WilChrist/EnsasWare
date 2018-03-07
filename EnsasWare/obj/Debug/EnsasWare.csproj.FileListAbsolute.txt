@@ -73,4 +73,3 @@ C:\Users\FRANCIS YEMETIO\Desktop\EnsasWare\EnsasWare\obj\Debug\EnsasWare.exe.lic
 C:\Users\FRANCIS YEMETIO\Desktop\EnsasWare\EnsasWare\obj\Debug\EnsasWare.csproj.CoreCompileInputs.cache
 C:\Users\FRANCIS YEMETIO\Desktop\EnsasWare\EnsasWare\obj\Debug\EnsasWare.exe
 C:\Users\FRANCIS YEMETIO\Desktop\EnsasWare\EnsasWare\obj\Debug\EnsasWare.pdb
-C:\Users\FRANCIS YEMETIO\Desktop\EnsasWare\EnsasWare\obj\Debug\EnsasWare.csprojResolveAssemblyReference.cache
