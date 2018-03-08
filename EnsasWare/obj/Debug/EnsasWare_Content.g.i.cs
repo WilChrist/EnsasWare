@@ -8,6 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("icons8_classroom_3.ico")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("fil_img.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("img_fil.png")]
 
 
