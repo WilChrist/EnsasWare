@@ -104,3 +104,6 @@ C:\Users\Willy Nzesseu\resolve\res\EnsasWare\EnsasWare\obj\Debug\EnsasWare.exe.l
 C:\Users\Willy Nzesseu\resolve\res\EnsasWare\EnsasWare\obj\Debug\EnsasWare.csproj.CoreCompileInputs.cache
 C:\Users\Willy Nzesseu\resolve\res\EnsasWare\EnsasWare\obj\Debug\EnsasWare.exe
 C:\Users\Willy Nzesseu\resolve\res\EnsasWare\EnsasWare\obj\Debug\EnsasWare.pdb
+C:\Users\Willy Nzesseu\resolve\res\EnsasWare\EnsasWare\obj\Debug\GestionFiliere.g.cs
+C:\Users\Willy Nzesseu\resolve\res\EnsasWare\EnsasWare\obj\Debug\GestionFiliere.baml
+C:\Users\Willy Nzesseu\resolve\res\EnsasWare\EnsasWare\obj\Debug\styleCarousel_Input.baml

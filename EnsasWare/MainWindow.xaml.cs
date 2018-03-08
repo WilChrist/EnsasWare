@@ -47,18 +47,23 @@ namespace EnsasWare
                     GridMain.Children.Add(new LoginControl());
                     break;
                 case 1:
-                    GridMain.Background = Brushes.Beige;
+                    GridMain.Children.Clear();
+                    //GridMain.Children.Add(new GestionFiliere());
                     break;
                 case 2:
-                    GridMain.Background = Brushes.CadetBlue;
+                    GridMain.Children.Clear();
+                    GridMain.Children.Add(new GestionFiliere());
                     break;
                 case 3:
+                    GridMain.Children.Clear();
                     GridMain.Background = Brushes.DarkBlue;
                     break;
                 case 4:
+                    GridMain.Children.Clear();
                     GridMain.Background = Brushes.Firebrick;
                     break;
                 case 5:
+                    GridMain.Children.Clear();
                     GridMain.Background = Brushes.Gainsboro;
                     break;
                 case 6:

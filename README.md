@@ -5,7 +5,7 @@ Vous avez ici le template de base du projet. Chacun de nous doit :
  - faire sa partie dans un UserControl
 
 Pour ajouter vos UserControl, il suffit:
- * ajouter ces lignes dans le case correspondant :
+ * ajouter ces lignes dans le case correspondant (MainWindow.waml.cs):
 
     GridMain.Children.Clear();
     

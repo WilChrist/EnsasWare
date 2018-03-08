@@ -72,7 +72,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="GestionFiliere.xaml.cs">
+      <DependentUpon>GestionFiliere.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ValeurStatiques.cs" />
+    <Page Include="GestionFiliere.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="LoginControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -92,6 +99,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="styleCarousel_Input.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -129,6 +140,10 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="3d-dna-4k.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="fil_img.png" />
+    <Resource Include="img_fil.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

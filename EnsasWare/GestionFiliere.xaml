@@ -8,7 +8,7 @@
              mc:Ignorable="d" Width="1080" Height="460" Background="#F6FFFFFF">
     <Grid Width="1080">
         <Grid.Background>
-            <ImageBrush ImageSource="img_fil.png"/>
+            <ImageBrush ImageSource="fil_img.png"/>
         </Grid.Background>
         <telerik:RadCarousel x:Name="radfil" HorizontalAlignment="Left" Margin="28,10,0,0" VerticalAlignment="Top" Height="244" Width="990" Loaded="radfil_Loaded" Background="#19FFFFFF"/>
         <Grid x:Name="controlgrid" HorizontalAlignment="Left" Height="188" Margin="262,272,0,0" VerticalAlignment="Top" Width="484" Background="#75E3EEF7">

@@ -38,11 +38,11 @@
         <Label x:Name="h1" Content="Veuillez vous connecter !" HorizontalAlignment="Left" Margin="401,75,0,0" VerticalAlignment="Top" Width="250" FontFamily="Baskerville Old Face" FontSize="24"/>
         <StackPanel HorizontalAlignment="Left" Height="59" Margin="373,134,0,0" VerticalAlignment="Top" Width="313" Orientation="Horizontal">
             <Label Content="Login :" Margin="10,10,10,10.2" FontFamily="Times New Roman" FontSize="20" Width="108" FontWeight="Bold"/>
-            <TextBox x:Name="txtlogin" TextWrapping="Wrap" Text="TextBox" Width="181" Margin="10,14,10,14.2" FontFamily="Yu Gothic UI" FontSize="20" Foreground="White"/>
+            <TextBox x:Name="txtlogin" TextWrapping="Wrap" Text="admin" Width="181" Margin="10,14,10,14.2" FontFamily="Yu Gothic UI" FontSize="20" Foreground="White"/>
         </StackPanel>
         <StackPanel HorizontalAlignment="Left" Height="59" Margin="373,198,0,0" VerticalAlignment="Top" Width="313" Orientation="Horizontal">
             <Label Content="Password :" Margin="10,10,10,10.2" FontFamily="Times New Roman" FontSize="20" Width="107" FontWeight="Bold"/>
-            <PasswordBox x:Name="txtpassword" Password="0000" Width="155" Margin="10,14,10,14.2" FontFamily="Yu Gothic UI" FontSize="16" Foreground="White"/>
+            <PasswordBox x:Name="txtpassword" Password="12345" Width="155" Margin="10,14,10,14.2" FontFamily="Yu Gothic UI" FontSize="16" Foreground="White"/>
         </StackPanel>
         <StackPanel HorizontalAlignment="Center" Height="59" Margin="373,262,394,139" VerticalAlignment="Center" Width="313" Orientation="Horizontal">
             <telerik:RadButton Content="Connexion" Height="39" Width="109" Margin="100,10,0,10.2" HorizontalAlignment="Center" VerticalAlignment="Center" Click="RadButton_Click"/>
