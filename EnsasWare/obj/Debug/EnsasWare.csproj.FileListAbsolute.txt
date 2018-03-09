@@ -107,3 +107,4 @@ C:\Users\Willy Nzesseu\resolve\res\EnsasWare\EnsasWare\obj\Debug\EnsasWare.pdb
 C:\Users\Willy Nzesseu\resolve\res\EnsasWare\EnsasWare\obj\Debug\GestionFiliere.g.cs
 C:\Users\Willy Nzesseu\resolve\res\EnsasWare\EnsasWare\obj\Debug\GestionFiliere.baml
 C:\Users\Willy Nzesseu\resolve\res\EnsasWare\EnsasWare\obj\Debug\styleCarousel_Input.baml
+C:\Users\Willy Nzesseu\resolve\res\EnsasWare\EnsasWare\obj\Debug\EnsasWare.csproj.CopyComplete

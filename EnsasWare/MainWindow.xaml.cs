@@ -95,6 +95,9 @@ namespace EnsasWare
             statistiqueBtn.Visibility = System.Windows.Visibility.Hidden;
             aproposBtn.Visibility = System.Windows.Visibility.Hidden;
             logout.Visibility = System.Windows.Visibility.Hidden;
+            GridCursor.Margin = new Thickness(10 + (150 * 0), 0, 0, 0);
+            GridMain.Children.Clear();
+            GridMain.Children.Add(new LoginControl());
         }
     }
 }
