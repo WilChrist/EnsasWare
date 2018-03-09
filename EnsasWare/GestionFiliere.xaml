@@ -4,9 +4,13 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:EnsasWare"
-             xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation" x:Class="EnsasWare.GestionFiliere"
+             xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" x:Class="EnsasWare.GestionFiliere"
              mc:Ignorable="d" Width="1080" Height="460" Background="#F6FFFFFF">
-    <Grid Width="1080">
+    <materialDesign:TransitioningContent x:Name="TrainsitionigContentSlide" OpeningEffect="{materialDesign:TransitionEffect SlideInFromTop, Duration=0:0:0.5}">
+
+        <Grid x:Name="grig1" Width="1080">
+        
         <Grid.Background>
             <ImageBrush ImageSource="fil_img.png"/>
         </Grid.Background>
@@ -24,5 +28,7 @@
             <Button x:Name="supprimerFil" Content="Supprimer" HorizontalAlignment="Left" Height="34" Margin="86.5,130,0,0" VerticalAlignment="Top" Width="105" Click="supprimerFil_Click" Grid.Column="1"/>
             <Button x:Name="ajouterFil" Content="Ajouter" HorizontalAlignment="Left" Height="34" Margin="41,130,0,0" VerticalAlignment="Top" Width="115" Click="ajouterFil_Click"/>
         </Grid>
+        
     </Grid>
+    </materialDesign:TransitioningContent>
 </UserControl>

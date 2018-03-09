@@ -11,4 +11,8 @@ Pour ajouter vos UserControl, il suffit:
     
     GridMain.Children.Add(new LoginControl()); // LoginControl c'est le nom de mon UserControl par exemple et ça correspond au case 0
     
-Je vous dirait comment ajouter votre UserControl au reste par la suite.
+Dans le XAML il faut entourer la grid principal de votre UserControl par cette balise
+    <materialDesign:TransitioningContent x:Name="TrainsitionigContentSlide" OpeningEffect="{materialDesign:TransitionEffect SlideInFromTop, Duration=0:0:0.5}">
+        </materialDesign:TransitioningContent>
+
+

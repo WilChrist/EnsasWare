@@ -38,7 +38,9 @@ namespace EnsasWare
                 main.GetMainWindow().statistiqueBtn.Visibility = System.Windows.Visibility.Visible;
                 main.GetMainWindow().aproposBtn.Visibility = System.Windows.Visibility.Visible;
                 main.GetMainWindow().logout.Visibility = System.Windows.Visibility.Visible;
-
+                main.GridCursor.Margin = new Thickness(10 + (150 * 1), 0, 0, 0);
+                main.GridMain.Children.Clear();
+                main.GridMain.Children.Add(new GestionFiliere());
             }
             else
             {
